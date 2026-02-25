@@ -1,0 +1,259 @@
+.about-page {
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-page .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero Section */
+.about-hero {
+  padding: 60px 0 30px;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.section-subtitle {
+  color: #7f8c8d;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Profile Section */
+.profile-section {
+  padding: 40px 0;
+}
+
+.profile-image {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border: 4px solid #fff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.profile-section h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.intro-text {
+  font-size: 18px;
+  font-style: italic;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.info-list li {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.info-list li strong {
+  font-weight: 600;
+  color: #2c3e50;
+  min-width: 100px;
+  display: inline-block;
+}
+
+.description {
+  margin-top: 20px;
+  color: #555;
+}
+
+/* Skills Section */
+.skills-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.skills-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skill-item {
+  margin-bottom: 25px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #e9ecef;
+}
+
+.progress-bar {
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: width 0.6s ease;
+}
+
+/* Facts Section */
+.facts-section {
+  padding: 60px 0;
+}
+
+.facts-grid {
+  margin-top: 40px;
+}
+
+.fact-item {
+  text-align: center;
+  padding: 30px 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+.fact-number {
+  font-size: 48px;
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.fact-text {
+  font-size: 16px;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.testimonial-item {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  border: 4px solid #fff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.testimonial-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+.testimonial-item h4 {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.testimonial-item p {
+  font-style: italic;
+  color: #555;
+  line-height: 1.8;
+}
+
+.quote-icon-left,
+.quote-icon-right {
+  color: #007bff;
+  font-size: 26px;
+  opacity: 0.5;
+  font-family: serif;
+  margin: 0 5px;
+}
+
+/* Carousel Controls */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  background: #007bff;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+.carousel-control-prev {
+  left: -50px;
+}
+
+.carousel-control-next {
+  right: -50px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 40px 0 20px;
+  }
+  
+  .profile-section .col-lg-4 {
+    text-align: center;
+  }
+  
+  .profile-image {
+    max-width: 300px;
+    margin: 0 auto 30px;
+  }
+  
+  .fact-item {
+    padding: 20px;
+  }
+  
+  .fact-number {
+    font-size: 36px;
+  }
+  
+  .carousel-control-prev {
+    left: 0;
+  }
+  
+  .carousel-control-next {
+    right: 0;
+  }
+}
+
+/* Add these if you want to match the Kelly template colors */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --dark-color: #2c3e50;
+  --light-color: #f8f9fa;
+}
