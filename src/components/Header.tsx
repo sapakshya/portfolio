@@ -8,7 +8,7 @@ export function Header() {
     <header className="header">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          <Link className="navbar-brand" to="/">Kelly</Link>
+          <Link className="navbar-brand" to="/">Sapakshya</Link>
           <button 
             className="navbar-toggler" 
             type="button" 

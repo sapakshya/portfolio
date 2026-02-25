@@ -1,6 +1,6 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import "./about.css"; // We'll create this next
+import "./about.css"; 
 
 export function About() {
   return (
@@ -31,33 +31,33 @@ export function About() {
               <div className="col-lg-8">
                 <h2>UI/UX Designer & Web Developer.</h2>
                 <p className="intro-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Hello, I’m Sapakshya, a passionate UI/UX designer and web developer.
                 </p>
                 
                 <div className="row">
                   <div className="col-md-6">
                     <ul className="info-list">
-                      <li><strong>Birthday:</strong> 1 May 1995</li>
+                      <li><strong>Birthday:</strong> 13 May 2005</li>
                       <li><strong>Website:</strong> www.example.com</li>
-                      <li><strong>Phone:</strong> +123 456 7890</li>
-                      <li><strong>City:</strong> New York, USA</li>
+                      <li><strong>Phone:</strong> +977 9819169184</li>
+                      <li><strong>City:</strong> Pokhara, Nepal</li>
                     </ul>
                   </div>
                   <div className="col-md-6">
                     <ul className="info-list">
-                      <li><strong>Age:</strong> 30</li>
-                      <li><strong>Degree:</strong> Master</li>
-                      <li><strong>Email:</strong> email@example.com</li>
+                      <li><strong>Age:</strong> 20</li>
+                      <li><strong>Degree:</strong> Bachelor Running</li>
+                      <li><strong>Email:</strong> sapakshya@example.com</li>
                       <li><strong>Freelance:</strong> Available</li>
                     </ul>
                   </div>
                 </div>
                 
                 <p className="description">
-                  Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. 
-                  Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. 
-                  Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. 
-                  Sed et consectetur qui quia repellendus itaque neque.
+                 An IT student and passionate builder exploring the world of web development and cloud computing.
+                  I enjoy transforming ideas into clean, functional digital experiences that feel simple yet meaningful.
+                  For me, tech isn’t just about writing code - it’s about solving real problems, creating impact, and constantly evolving.
+                 I’m currently sharpening my skills through hands-on projects while building a strong foundation for a future in cloud engineering.
                 </p>
               </div>
             </div>
@@ -69,7 +69,7 @@ export function About() {
           <div className="container">
             <h2>Skills</h2>
             <p className="section-subtitle">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+              These are the skills I have acquired over the years of experience in the web development industry.
             </p>
 
             <div className="skills-content">
@@ -105,68 +105,11 @@ export function About() {
 
               <div className="skill-item">
                 <div className="skill-info">
-                  <span>PHP</span>
+                  <span>Photoshop</span>
                   <span>80%</span>
                 </div>
                 <div className="progress">
                   <div className="progress-bar" style={{ width: "80%" }}></div>
-                </div>
-              </div>
-
-              <div className="skill-item">
-                <div className="skill-info">
-                  <span>WordPress/CMS</span>
-                  <span>90%</span>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar" style={{ width: "90%" }}></div>
-                </div>
-              </div>
-
-              <div className="skill-item">
-                <div className="skill-info">
-                  <span>Photoshop</span>
-                  <span>55%</span>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar" style={{ width: "55%" }}></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Facts Section */}
-        <section className="facts-section">
-          <div className="container">
-            <h2>Facts</h2>
-            <p className="section-subtitle">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
-            </p>
-
-            <div className="row facts-grid">
-              <div className="col-lg-3 col-md-6">
-                <div className="fact-item">
-                  <div className="fact-number">232</div>
-                  <div className="fact-text">Clients</div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <div className="fact-item">
-                  <div className="fact-number">521</div>
-                  <div className="fact-text">Projects</div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <div className="fact-item">
-                  <div className="fact-number">1453</div>
-                  <div className="fact-text">Hours Of Support</div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <div className="fact-item">
-                  <div className="fact-number">32</div>
-                  <div className="fact-text">Workers</div>
                 </div>
               </div>
             </div>
@@ -178,7 +121,7 @@ export function About() {
           <div className="container">
             <h2>Testimonials</h2>
             <p className="section-subtitle">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+              These are the testimonials from my clients and colleagues who have worked with me.
             </p>
 
             <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel">
